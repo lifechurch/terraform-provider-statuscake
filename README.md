@@ -19,14 +19,14 @@ Building The Provider
 Clone repository to: `$GOPATH/src/github.com/terraform-providers/terraform-provider-statuscake`
 
 ```sh
-$ mkdir -p $GOPATH/src/github.com/terraform-providers; cd $GOPATH/src/github.com/terraform-providers
-$ git clone git@github.com:terraform-providers/terraform-provider-statuscake
+$ mkdir -p $GOPATH/src/github.com/lifechurch; cd $GOPATH/src/github.com/lifechurch
+$ git clone git@github.com:lifechurch/terraform-provider-statuscake
 ```
 
 Enter the provider directory and build the provider
 
 ```sh
-$ cd $GOPATH/src/github.com/terraform-providers/terraform-provider-statuscake
+$ cd $GOPATH/src/github.com/lifechurch/terraform-provider-statuscake
 $ make build
 ```
 
